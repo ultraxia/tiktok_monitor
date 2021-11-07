@@ -37,7 +37,7 @@ def get_latest_tiktok_id(config):
 
 def update_latest_tiktok_id(config, latest_tiktok_id):
 	nickname = config["name"]
-		for i in init_data:
+	for i in init_data:
 		if i["nickname"] == nickname:
 			i["latest_tiktok_id"] = latest_tiktok_id
 
